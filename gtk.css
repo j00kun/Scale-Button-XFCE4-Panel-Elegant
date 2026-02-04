@@ -1,0 +1,78 @@
+/*************** Scale button notfy buttons ***************/
+
+#pulseaudio-button image { color: #FFFFFF; -gtk-icon-transform: scale(0.35); height: -20px;}
+#xfce4-clipman-plugin image { color: #FFFFFF; -gtk-icon-transform: scale(0.35); }
+#xfce4-notification-plugin image { color: #FFFFFF; -gtk-icon-transform: scale(0.35); }
+#xfce4-power-manager-plugin image {color: #FFFFFF;  -gtk-icon-transform: scale(0.35); }
+#xfce-panel-toggle-button image { color: #FFFFFF; -gtk-icon-transform: scale(0.35); }
+#showdesktop-button image { -gtk-icon-transform: scale(0.8); }
+#xfce4-indicator-plugin image { color: #FFFFFF;  }
+
+/*************** Scale button xfce4-panel ***************/
+
+.xfce4-panel {
+
+}
+
+.xfce4-panel button {
+  border: transparent; 
+  box-shadow: none;
+}
+
+.xfce4-panel button image {
+  -gtk-icon-transform: scale(0.7); 
+}
+
+.xfce4-panel.background .tasklist button {
+  border-image: image(transparent) 0 0 2/0 0 2px;
+  background: transparent;
+}
+
+.xfce4-panel.background .tasklist button:checked {
+  border-image: image(transparent) 0 0 2/0 0 2px;
+  background: transparent;
+}
+
+.xfce4-panel.background .tasklist button image {
+  -gtk-icon-transform: scale(0.7); 
+  padding: 4px;
+  border-image: image(transparent) 0 0 2/0 0 2px;
+  background: transparent;
+}
+
+.tasklist {
+
+ -XfceTasklist-minimized-icon-lucency: 100; }
+
+.tasklist .label-hidden { 
+
+opacity: 1.0 }
+
+.xfce4-panel.panel button.flat:hover {
+  background: transparent;
+}
+
+.xfce4-panel.panel button.sidebar-button:hover {
+  background: transparent;
+}
+
+/*************** Scale button whiskermenu ***************/
+
+#whiskermenu-window {
+    border-radius: 15px;
+}
+
+#whiskermenu-window border {
+    border-radius: 15px;
+}
+
+#whiskermenu-window separator {
+    border-radius: 15px;
+}
+
+#whiskermenu-window frame {
+    border-radius: 15px;
+}
+
+calendar { font-size: 10pt; color: #000000; padding: 10px; }
+
